@@ -1,0 +1,167 @@
+/* button {
+    margin-top: 30px;
+    font-size: 20px;
+}
+
+input[type=file] {
+    font-size: 20px;
+}
+
+@import "bourbon";
+@import url(https://fonts.googleapis.com/css?family=Lato:400,700,300);
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+.container {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    
+
+.form {
+    width: 400px;
+}
+
+.file-upload-wrapper {
+    $defaultColor: #4daf7c;
+    $height: 60px;
+    position: relative;
+    width: 100%;
+    height: $height;
+    &:after {
+        content: attr(data-text);
+        font-size: 18px;
+        position: absolute;
+        top: 0;
+        left: 0;
+        background: #fff;
+        padding: 10px 15px;
+        display: block;
+        width: calc(100% - 40px);
+        pointer-events: none;
+        z-index: 20;
+        height: $height - 20px;
+        line-height: $height - 20px;
+        color: #999;
+        border-radius: 5px 10px 10px 5px;
+        font-weight: 300;
+    }
+    &:before {
+        content: 'Upload';
+        position: absolute;
+        top: 0;
+        right: 0;
+        display: inline-block;
+        height: 60px;
+        background: $defaultColor;
+        color: #fff;
+        font-weight: 700;
+        z-index: 25;
+        font-size: 16px;
+        line-height: $height;
+        padding: 0 15px;
+        text-transform: uppercase;
+        pointer-events: none;
+        border-radius: 0 5px 5px 0;
+    }
+    &:hover {
+        &:before {
+            background: darken($defaultColor, 10%);
+        }
+    }
+    input {
+        opacity: 0;
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        z-index: 99;
+        height: $height - 20px;
+        margin: 0;
+        padding: 0;
+        display: block;
+        cursor: pointer;
+        width: 100%;
+    }
+} */
+
+.input-group label {
+    width: 100px
+}
+
+.input-group span {
+    background-color: #428bca;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 4px;
+    width: 100px;
+    padding-top: 8px;
+    padding-bottom: 11px;
+    color: white;
+    cursor: pointer
+}
+
+.help-block {
+    font-size: 20px;
+    margin-left: 50px;
+    ;
+}
+
+.input-group {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.form-control {
+    height: 38px;
+    width: 375px;
+    ;
+}
+
+.upload-main-div {
+    width: 750px;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+}
+
+h4 {
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+}
+
+button {
+    margin-left: auto
+}
+
+
+/* changes for storybook */
+
+button {
+    margin-left: 335px;
+}
+
+.help-block {
+    margin-left: 200px;
+}
+
+.upload-main-div button {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    width: 100px;
+}
+
+.upload-main-div {
+    margin: auto;
+}

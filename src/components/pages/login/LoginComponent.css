@@ -1,0 +1,15 @@
+.main-div {
+    background-image: url("../../../static/images/login-background.jpg");
+    height: 980px;
+    border: 1px solid red;
+}
+
+.main-div .head-div {
+    height: 100px;
+}
+
+.main-div .button-div {
+    margin-top: 300px;
+    font-size: 25px;
+    margin-left: 0%;
+}

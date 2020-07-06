@@ -1,0 +1,9 @@
+img {
+    width: 450px;
+    height: 450px;
+    float: left;
+    margin-left: 20px;
+    margin-top: 0px;
+    padding-top: 60px;
+    /* margin-bottom: 30px; */
+}
